@@ -1,14 +1,11 @@
-# Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-
-# Env / logs
 .env
 .venv
 *.log
-
-# BIG data & models — DO NOT COMMIT
+src/*.egg-info/
+*.egg-info/
 examples/hg38/
 examples/mm10/
 examples/saved_models/
